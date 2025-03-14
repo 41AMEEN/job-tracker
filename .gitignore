@@ -1,0 +1,23 @@
+ # Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore environment folders (if using a virtual environment)
+venv/
+env/
+
+# Ignore uploads (don't commit user resumes)
+uploads/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
