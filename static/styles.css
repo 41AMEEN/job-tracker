@@ -1,1 +1,45 @@
- 
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #fff9f9;
+}
+
+h4 {
+    color: #fff9f9;
+
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.table {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255)
+    
+}
+
+.btn-danger {
+    font-weight: bold;
+}
+
+thead {
+    background-color: #1d1d1d;
+    color:#fff9f9
+}
+
+tbody {
+    color:#ffffff
+}
+
+tbody tr:nth-child(odd) {
+    background-color:#1d1d1d;
+}
+
+tbody tr:nth-child(even) {
+    background-color:#2e2e2e
+}
