@@ -14,25 +14,35 @@ A Flask web application to track job applications with SQLite and Bootstrap.
 - Git & GitHub
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/41ameen/job-tracker.git
-   cd job-tracker
 
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/41ameen/job-tracker.git
+cd job-tracker
+```
 
-Create a virtual environment and activate it:
+### 2. Create and Activate a Virtual Environment:
+For macOS/Linux
+```bash
 python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate      # On Windows
+source venv/bin/activate
+```
 
+For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-Install dependencies:
+### 3. Install Dependencies:
+```bash
 pip install -r requirements.txt
+```
 
-
-Run the application:
+### 4. Run the Application:
+```bash
 python app.py
+```
 
-
-Open in your browser:
-http://127.0.0.1:5000/
+### 5. Open in Your Browser:
+[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
